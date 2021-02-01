@@ -1,0 +1,16 @@
+{
+  "name": "servidor_api",
+  "version": "1.0.0",
+  "description": "Criando uma api em nodejs com crud de usuários",
+  "main": "servidor.js",
+  "scripts": {
+    "serve": "nodemon servidor.js"
+  },
+  "author": "Dielle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.10",
+    "nodemon": "^2.0.6"
+  }
+}
